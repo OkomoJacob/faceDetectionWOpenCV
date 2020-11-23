@@ -1,5 +1,5 @@
 
- ##Summary for today,s class
+ ## Summary for today,s class
  =========================
 In today’s blog post we,ve discovered a little known secret about the OpenCV library — OpenCV ships out-of-the-box with a more accurate face detector (as compared to OpenCV’s Haar cascades).
 

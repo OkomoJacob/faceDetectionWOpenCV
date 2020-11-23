@@ -16,3 +16,4 @@ Raspberry Pi + picamera users can replace Line 25:
 If you to parse a video file (rather than a video stream),
  swap out the VideoStream  class for FileVideoStream. 
  You can learn more about the FileVideoStream class in this blog post: https://www.pyimagesearch.com/2017/02/06/faster-video-file-fps-with-cv2-videocapture-and-opencv/
+

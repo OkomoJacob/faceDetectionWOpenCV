@@ -1,0 +1,18 @@
+#For the detect_faces.py
+========================
+Open the terminal and type the following command
+
+python detect_faces.py --image rooster.jpg --prototxt deploy.prototxt.txt \
+	--model res10_300x300_ssd_iter_140000.caffemodel
+
+#For the detect_faces.py
+========================
+We initialize a VideoStream object specifying camera with index zero as the source 
+(in general this would be your laptop’s built in camera or your desktop’s first camera detected).
+A few quick notes here:
+
+Raspberry Pi + picamera users can replace Line 25:
+ with vs = VideoStream(usePiCamera=True).start() if you wish to use the Raspberry Pi camera module.
+If you to parse a video file (rather than a video stream),
+ swap out the VideoStream  class for FileVideoStream. 
+ You can learn more about the FileVideoStream class in this blog post: https://www.pyimagesearch.com/2017/02/06/faster-video-file-fps-with-cv2-videocapture-and-opencv/
